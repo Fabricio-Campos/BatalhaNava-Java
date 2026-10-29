@@ -1,18 +1,22 @@
-## Getting Started
+# Batalha Naval - Linguagem de Programação I
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Resumo e documentação do projeto académico de Batalha Naval desenvolvido em Java.
 
-## Folder Structure
+### 📌 Características Principais
+* **Tecnologias:** Java, interface gráfica com Swing e diálogos com `JOptionPane`.
+* **Mecânica:** Alocação de embarcações de forma aleatória pelo sistema.
+* **Tipos de Embarcações:** 
+  * Submarino (ocupa 1 casa).
+  * Destroier (ocupa 2 casas).
+  * Cruzador (ocupa 3 casas).
+  * Encouraçado (ocupa 4 casas).
+  * Porta-aviões (ocupa 5 casas).
 
-The workspace contains two folders by default, where:
+### ⚙️ Funcionalidades
+* **Nível Fácil:** Tabuleiro em matriz 6x6, limite de 30 tiros, contendo 4 submarinos, 2 destroieres, 1 cruzador, 1 encouraçado e 1 porta-aviões.
+* **Nível Difícil:** Tabuleiro em matriz 8x8, limite de 40 tiros, contendo 6 submarinos, 2 destroieres, 2 cruzadores, 2 encouraçados e 1 porta-aviões.
+* **Sistema de Interação:** Ao clicar numa posição, o jogo revela uma imagem no local, atualiza o número de tiros restantes e exibe uma mensagem indicando "tiro na água" ou o nome da embarcação atingida.
+* **Fim de Jogo:** Vitória ao acertar todas as partes de todas as embarcações; Derrota se o jogador esgotar todos os tiros sem encontrar todos os alvos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🔑 Palavras-chave
+Java, Swing, Matriz (Array 2D), Lógica de Jogo, Interface Gráfica, Orientação a Objetos, Projeto Académico.
